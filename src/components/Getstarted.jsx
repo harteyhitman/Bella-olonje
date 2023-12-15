@@ -2,7 +2,7 @@ import GetstartedImg from '../assets/getstarted-img.png'
 const Getstarted = () => {
     return (
 
-        <div className="image">
+        <div id='features' className="image">
             <img src={GetstartedImg} alt="" />
             <div className="section">
                 <h4>Create an account</h4>

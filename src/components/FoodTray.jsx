@@ -3,7 +3,7 @@ import Button from './Button'
 
 const FoodTray = () => {
     return (
-        <div className='foodtray-cont'>
+        <div id='home' className='foodtray-cont'>
             <div className="foodtray">
                 <h4>Food app</h4>
                 <h1>Why stay hungry when <br />

@@ -5,7 +5,7 @@ import WhiteMobile from '../assets/white-mobile-fone.png'
 const FoodForAll = () => {
   return (
     <div>
-        <div className='phones'>
+        <div id='about' className='phones'>
             <img className='pink-fone' src={PinkPhone} alt="" />
             <img className='white-phone' src={WhitePhone} alt="" />
         </div>

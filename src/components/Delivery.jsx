@@ -1,7 +1,7 @@
 import DeliveryImg from '../assets/delivery.png'
 const Delivery = () => {
   return (
-    <div className="image">
+    <div id='solution' className="image">
     <img src={DeliveryImg} alt="" />
     <div className="section">
         <h4>Checkout</h4>
