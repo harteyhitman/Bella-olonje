@@ -653,9 +653,7 @@ margin: 30px 300px;
     }
     .phones-container {
         height: 400px;
-}
-
-    .how-to-work h2 {
+} .how-to-work h2 {
         color: #000;
         text-align: center;
         font-family: 'Poppins';
@@ -666,7 +664,6 @@ margin: 30px 300px;
         /* 150% */
         letter-spacing: 0.1px;
     }
-
     .image .section h4 {
         color: #FA4A0C;
         text-align: center;
@@ -683,25 +680,31 @@ margin: 30px 300px;
 
     .image{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        width: 70%;
-        margin: 0 auto;
+        img{
+            padding-left: 50px;
+        }
     }
+    .favorite{
+        display: flex;
+        flex-direction: column;
+    }
+
     .image .section h2 {
         color: var(--text, #252B42);
         text-align: center;
 
         /* H2 */
         font-family: 'Poppins';
-        font-size: 40px;
+        font-size: 25px;
         font-style: normal;
         font-weight: 700;
         line-height: 57px;
         /* 142.5% */
         letter-spacing: 0.2px;
-        width: 300px;
+        // width: 300px;
         // height: 228px;
     }
 
@@ -716,14 +719,11 @@ margin: 30px 300px;
     .image .section p {
         color: var(--second-text, #737373);
         text-align: center;
-
-        /* H4 */
         font-family: 'Poppins';
         font-size: 24px;
         font-style: normal;
         font-weight: 500;
         line-height: 38px;
-        /* 158.333% */
         letter-spacing: 0.2px;
         width: 257px;
         height: 152px;
@@ -752,7 +752,7 @@ margin: 30px 300px;
 
             /* H2 */
             font-family: 'Poppins';
-            font-size: 40px;
+            font-size: 25px;
             font-style: normal;
             font-weight: 700;
             line-height: 57px;
@@ -766,7 +766,7 @@ margin: 30px 300px;
 
             /* H4 */
             font-family: 'Poppins';
-            font-size: 24px;
+            font-size: 18px;
             font-style: normal;
             font-weight: 500;
             line-height: 38px;
@@ -801,9 +801,9 @@ margin: 30px 300px;
         display: flex;
         justify-content: center;
         align-items: center;
-        position: fixed;
-        top: 50px;
-        right: 70px;
+        position: relative;
+        top: 0px;
+        right: 0px;
     }
 
     .hamburger {
@@ -872,7 +872,10 @@ margin: 30px 300px;
     }
 
     .download-cont .apple {
+        display: flex;
         padding: 18px 31px;
-
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
 }
