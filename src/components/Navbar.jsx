@@ -19,8 +19,9 @@ const Navbar = () => {
                         </li>
                 ))}
             </ul>
+            
         </div>
-        <Hamburger />
+       <Hamburger />
     </div>
   )
 }

@@ -12,7 +12,7 @@ const Hamburger = () => {
   };
 
   return (
-    <nav className="app-btn">
+    <nav id='app-btn' className="app-btn">
       <header>
         <div className="navbar-mobile">
           <div className="hamburger" onClick={handleMenuClick}>
@@ -25,16 +25,16 @@ const Hamburger = () => {
 
       {isModalOpen && (
         <div className="modal">
-         
-            <span className="close" onClick={handleCloseModal}>&times;</span>
-            <ul className='hamburger-list'>
-          <a onClick={handleCloseModal} href="#home"><li style={{ color: 'white' }}>Home</li></a>
-          <a onClick={handleCloseModal} href="#about"> <li>About Us</li></a>
-          <a onClick={handleCloseModal} href="#features"><li>Features</li></a>
-          <a onClick={handleCloseModal} href="#solution"><li>Solution</li></a>
-        </ul>
-          </div>
-      
+
+          <span className="close" onClick={handleCloseModal}>&times;</span>
+          <ul className='hamburger-list'>
+            <a onClick={handleCloseModal} href="#home"><li style={{ color: 'white' }}>Home</li></a>
+            <a onClick={handleCloseModal} href="#about"> <li>About Us</li></a>
+            <a onClick={handleCloseModal} href="#features"><li>Features</li></a>
+            <a onClick={handleCloseModal} href="#solution"><li>Solution</li></a>
+          </ul>
+        </div>
+
       )}
     </nav>
   );

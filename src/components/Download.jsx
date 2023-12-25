@@ -11,6 +11,10 @@ const Download = () => {
                     <Button label="Playstore" className="google" />
                     <Button label="App store" className="apple" />
                 </div>
+                <div className="footer-btn-mobile">
+                    <Button label="Buynow" className="google-mobile" />
+                    <Button label="Try for free" className="apple-mobile" />
+                </div>
             </div>
 
         </div>
